@@ -10,6 +10,9 @@
 		"--socket=wayland",
 		"--socket=fallback-x11"
 	],
+	"cleanup": [
+		"/share/doc"
+	],
 	"modules": [
 		"shared-modules/SDL2/SDL2_image.json",
 		"shared-modules/SDL2/SDL2_ttf.json",
